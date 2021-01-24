@@ -74,7 +74,7 @@ ln -s /var/lib/snapd/snap /snap
 
 snap install spotify
 snap install signal-desktop
-flatpak install flathub org.geogebra.GeoGebra
+flatpak install -y flathub org.geogebra.GeoGebra
 
 
 
