@@ -15,6 +15,8 @@ echo ""
 
 ### Telepítés kezdése!
 
+mkdir -p /home/$felhasznalo/.config/autostart/
+
 # RPM Fusion telepítése
 
 echo ""
@@ -74,7 +76,7 @@ ln -s /var/lib/snapd/snap /snap
 
 snap install spotify
 snap install signal-desktop
-flatpak install flathub org.geogebra.GeoGebra
+flatpak install -y flathub org.geogebra.GeoGebra
 
 
 
